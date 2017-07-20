@@ -61,4 +61,4 @@ fig.append_trace(trace5, 2, 2)
 fig.append_trace(trace6, 2, 1)
 
 fig['layout'].update(height=600, width=600, title='Gyroscope Readings')
-plot_url = py.offline.plot(fig, filename='make-subplots-long.html')
+plot_url = py.offline.plot(fig, filename='make-subplots.html')
